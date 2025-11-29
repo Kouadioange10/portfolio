@@ -4,14 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    
+
+    <!--lions le css-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
 </head>
 <body>
     <!--Barre de navigation-->
-    <nav>
-        <ul>
-            <li><a href="À propos">À propos</a></li>
-            <li><a href="CV">CV</a></li>
-            
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="ancre">
+                <a href="#Àpropos">À propos</a>
+            </li>
+
+            <li class="ancre">
+                <a href="#Mestravaux">Mes Travaux</a>
+            </li>
+
+            <li class="ancre">
+                <a href="#CV">CV</a>
+            </li>
+
+            <li class="ancre">
+                <a href="#contact">Contact</a>
+            </li>
         </ul>
     </nav>
 
@@ -19,12 +38,12 @@
     <header>
         <h1>Bienvenue sur mon portfolio !</h1>
         <video width="320" height="204" controls>
-            <source src="vidéo.mp4" type="vidéo/mp4">
+            <source src="Vidéo/vieo.htm" type="video/mp4">
         </video>
     </header>
 
     <!--Section À propos-->
-    <section>
+    <section id="Àpropos">
         <h2>À propos de moi </h2>
         <p> Je suis developpeur web junior dans la création de site web </p>
         <audio controls>
@@ -33,7 +52,7 @@
     </section>
 
     <!--Secton Travail-->
-    <section>
+    <section id="Mestravaux">
         <h2>Mes travaux</h2>
         <ul>
             <li>
@@ -49,9 +68,9 @@
         </ul>
     </section>
     <!--Section Cv-->
-    <section>
+    <section id="CV">
         <h2>Mon CV</h2>
-        <table border="1">
+        <table>
             <tr>
                 <th>Expérience</th>
                 <th>Date</th>
@@ -66,7 +85,7 @@
     </section>
 
     <!--Section Contact-->
-    <section>
+    <section id="contact">
         <h2>Contactez-moi</h2>
         <form>
             <label for="nom">Nom : </label>
@@ -74,7 +93,13 @@
             <label for="email">Email :</label>
             <input type="email"> 
         </form>
+
     </section>
+    <!--bas de la page-->
+    <footer>
+        <p>Créer par Ange</p>
+    </footer>
+    
 
 
 
